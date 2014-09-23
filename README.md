@@ -34,3 +34,8 @@ var JarSON = require('jarson')
   , jar: jar
   })
 ```
+
+Hopefully this is just a temporary fix for these issues and the required fixes will be applied in the near future.
+
+  * <https://github.com/mikeal/request/issues/1085>
+  * <https://github.com/goinstant/tough-cookie/issues/24>
