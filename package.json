@@ -1,0 +1,30 @@
+{
+  "name": "jarson",
+  "version": "1.0.0",
+  "description": "Convert request / tough-cookie jars to and from JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolaj86/jarson.git"
+  },
+  "keywords": [
+    "cookie",
+    "tough-cookie",
+    "request",
+    "jar",
+    "json",
+    "proxy"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/coolaj86/jarson/issues"
+  },
+  "homepage": "https://github.com/coolaj86/jarson",
+  "dependencies": {
+    "tough-cookie": "^0.12.1"
+  }
+}
