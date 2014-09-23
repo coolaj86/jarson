@@ -28,3 +28,11 @@ module.exports.fromJSON = function (jsonJar) {
   jar._jar = jar;
   return jar;
 };
+
+module.exports.stringify = function (jar) {
+  return JSON.stringify(module.exports.toJSON(jar));
+};
+
+module.exports.parse = function (jar) {
+  return module.exports.fromJSON(JSON.parse(jar));
+};
